@@ -1,1 +1,163 @@
 /* Add CSS styling here */
+/* CSS reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing:border-box;
+    max-width:100%;
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family:"Roboto Mono",monospace;
+}
+section{
+    padding:2%;
+    margin:2%;
+}
+h1{
+    font-family:"Chelsea Market",cursive;
+    font-size:48px;
+  padding:5% 10% 5% 5%;
+}
+h2{
+    font-size:3rem;
+}
+
+h3{
+    font-size: 2rem;
+    text-align:center;
+    margin:2% auto;
+}
+p{
+    padding:0 1%;
+    text-align: center;
+}
+p:hover{
+    transition:1s;
+    text-transform: uppercase;
+    font-size:1.5rem;
+    color:yellowgreen;
+}
+    
+.items{
+    margin-left: 10%;
+}
+.items a{
+    font-family: "Roboto Mono",monospace;
+    text-decoration: none;
+    padding:1%;
+  color:white;
+  background:#366652;
+  border-radius: 10px;
+
+}
+.items a:hover{
+    transition: 2s;
+    background-color: aliceblue;
+    color:brown;
+}
+
+.info img{
+    border-radius: 50%;
+}
+.list1 img, .list2 img{
+    width:280px;
+    height:200px;
+    margin-bottom: 1%;
+
+}
+.list1 img:hover,.list2 img:hover{
+    transition:1s;
+    border-radius: 50%;
+}
+
+.contact{
+    text-align: center;
+}
+.contact a{
+   font-family: "Roboto Mono",monospace;
+    text-decoration: none;
+  color:whitesmoke;
+  background-color: cadetblue;
+  border-radius: 10px;
+  padding:1%;
+}
+.contact a:hover{
+    transition:2s;
+    background-color: tomato;
+    color:thistle;
+}
+
+.text{
+    display:flex;
+    flex-wrap: wrap;
+}
+.text a{
+  text-decoration: none;
+  color:whitesmoke;
+  display:flex;
+  border-radius: 10px;
+  background-color: teal;
+  justify-content:center;
+  padding:5%;
+}
+.text a:active{
+    color:yellow;
+    background-color:yellowgreen;
+}
+.text a:hover{
+    transition: 2s;
+    background-color: tomato;
+    color:yellowgreen;
+}
+.info{
+    display:flex;
+}
